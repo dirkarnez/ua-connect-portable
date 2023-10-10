@@ -18,7 +18,7 @@ jobs:
       - name: installer
         shell: cmd
         run: |
-          curl https://builds.uaudio.com/apps/UA_Connect/UA_Connect_1_4_7_2324_Win.exe -L --output installer.exe
+          curl curl https://www.uaudio.com/apps/uaconnect/win/installer -L --output installer.exe -J
 
       - shell: cmd
         run: |
